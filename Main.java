@@ -12,7 +12,7 @@ class Food implements Serializable
     int itemno;
     int quantity;   
     float price;
-    
+    System.out.println("hello everyone");
     Food(int itemno,int quantity)
     {
         this.itemno=itemno;
